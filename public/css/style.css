@@ -1,0 +1,64 @@
+.calendar{
+    position: relative;
+}
+
+.calendar__table {
+    width: 100%;
+    height: calc(100vh - 128px);
+}
+.calendar__table td{
+    padding: 10px;
+    vertical-align: top;
+    width: 14.29%;
+    border: 1px solid #CCCCCC;
+}
+
+.calendar__table-6 td{
+    height: 16.66%;
+}
+
+.calendar__weekDay{
+    font-weight: bold;
+    color: #000;
+}
+.calendar__NumberDay:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.calendar__NumberDay{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #000;
+}
+.calendar__otherMonth .calendar__NumberDay{
+    opacity: .3;
+}
+
+.calendar__events{
+    font-size: 12px;
+}
+
+.calendar__button{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    background: #007bff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.3s;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.2);
+}
+
+.calendar__button:hover{
+    transform: scale(1.2);
+    text-decoration: none;
+    color: #fff;
+}

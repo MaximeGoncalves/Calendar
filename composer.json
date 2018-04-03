@@ -1,0 +1,15 @@
+{
+    "name": "root/calendrier",
+    "authors": [
+        {
+            "name": "Maxime Goncalves",
+            "email": "maxime.goncalves@softease.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Softease\\" : "src/"
+        }
+    },
+    "require": {}
+}
